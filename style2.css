@@ -1,0 +1,27 @@
+/*El selector de clase se identifica con el punto . */
+.astros {
+    background-color: orange;
+    color: brown;
+}
+
+.citacion {
+    background-color: gainsboro;
+    color: blue;
+}
+
+/*El selector de id se identifica con el numeral #*/
+#sol {
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
+
+/*El selector de etiqueta se identifica con el nombre de la etiqueta*/
+h1 {
+    font-size: 18px;
+}
+
+/*El selector de atributo se identifica porque lleva [ ]*/
+/* !important permite forzar que se prevalezca un estilo y que se aplique obligatoriamente */
+[estrellita] {
+    color: aqua !important;
+}
